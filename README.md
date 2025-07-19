@@ -1,6 +1,6 @@
 # 🌟 rusty-plot
 
-A tiny, terminal-based graph plotter written in 100% Rust. Plot `y = mx + b` on a 2D ASCII cartesian plane, because why not make your terminal smarter?
+A tiny, terminal-based graph plotter written in 100% Rust. Plot `y = mx + b` on a 2D ASCII cartesian plane.
 
 ---
 
