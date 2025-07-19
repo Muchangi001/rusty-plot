@@ -21,7 +21,6 @@ impl Graph {
         let expr = self.equation.replace("y = ", "");
         let terms: Vec<&str> = expr.trim().split(" ").collect();
 
-        // compute y-intercept
         let mut y_intercept;
         y_intercept = terms[2]
             .parse::<i32>()
@@ -43,7 +42,6 @@ impl Graph {
         };
         let gradient = m;
 
-        // compute outputs
         self.outputs = self.compute_outputs(gradient, y_intercept);
 
         // plotting
