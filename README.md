@@ -1,10 +1,10 @@
-# 🌟 rusty-plot
+# rusty-plot
 
 A tiny, terminal-based graph plotter written in 100% Rust. Plot `y = mx + b` on a 2D ASCII cartesian plane.
 
 ---
 
-## 🚀 Overview
+## Overview
 
 rusty-plot lets you visualize linear equations of the form:
 
@@ -18,16 +18,16 @@ It maps a 2D plane from `(-25, -25)` to `(25, 25)` and plots your line, complete
 
 ---
 
-## 🛠 Features
+## Features
 
-- Render straight lines like it’s 1983 🖥️
+- Render straight lines like it’s 1983
 - Customizable equations (well... as long as they're `y = mx + b`)
 - Shows axes and origin with clean markings
 - Totally overengineered for something this simple (and proud of it)
 
 ---
 
-## 🧪 Example
+## Example
 
 ```bash
 cargo run
@@ -57,7 +57,7 @@ You'll get:
 
 ---
 
-## 📦 Installation
+## Installation
 
 1. Make sure you have Rust installed. If not:
 
@@ -88,7 +88,7 @@ cargo run
 
 ---
 
-## 🧠 Future Goals
+## Future Goals
 
 - [ ] Support other types of equations (quadratic, exponential, etc.)
 - [ ] Add command-line interface for equations
@@ -98,13 +98,13 @@ cargo run
 
 ---
 
-## 👨‍💻 Contributing
+## Contributing
 
 Pull requests are welcome! This is a fun project for learning, so feel free to fork, hack, and PR.
 
 ---
 
-## 📜 License
+## License
 
 MIT License. Use it, break it, make it better.
 
